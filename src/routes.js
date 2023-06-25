@@ -23,7 +23,7 @@ const routes = [
     handler: getNoteByHandler,
   },
   { method: "PUT", path: "/notes/{id}", handler: editNoteByHandler },
-  { method: "DELETE", path: "/notes/{id", handler: deleteNoteHandler },
+  { method: "DELETE", path: "/notes/{id}", handler: deleteNoteHandler },
 ];
 
 module.exports = routes;
